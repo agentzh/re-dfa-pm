@@ -193,6 +193,12 @@ sub as_png {
     $gv->as_png(@_);
 }
 
+sub as_dot {
+    my $self = shift;
+    my $gv = $self->as_graphviz;
+    $gv->as_dot(@_);
+}
+
 sub build {
     my $self = shift;
     my $src = shift;

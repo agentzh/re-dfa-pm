@@ -1,0 +1,12 @@
+*~
+*.swp
+blib/
+*.swo
+lib/re/AST/Alternation.pm
+lib/re/AST/Concat.pm
+lib/re/Parser.pm
+Makefile
+Makefile.old
+pm_to_blib
+_Inline/
+t/re-Graph/g28.dot

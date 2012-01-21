@@ -121,11 +121,11 @@ is $g28->entry, 2, "$name, entry -> 2";
 $g28->exit(8);
 is $g28->exit, 8, "$name, exit -> 8";
 
-my $file = 't/re-Graph/g28.png';
+my $file = 't/re-Graph/g28.dot';
 unlink $file if -f $file;
-$g28->as_png($file);
+$g28->as_dot($file);
 ok -f $file;
-is File::Compare::compare($file, 't/re-Graph/~g28.png'), 0, "$file ok";
+is File::Compare::compare($file, 't/re-Graph/_g28.dot'), 0, "$file ok";
 
 $g28->add_exit(9);
 is join(' ', $g28->exit), '8 9', "multiple accepting nodes";

@@ -1,0 +1,40 @@
+---
+abstract: 'simple regex -> DFA compiler'
+author:
+  - 'Agent Zhang L<mailto:agentzh@gmail.com>'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+  File::Compare: 0
+  IPC::Run3: 0
+  Test::Base: 0
+  Test::Differences: 0
+  Test::More: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
+distribution_type: module
+generated_by: 'Module::Install version 1.01'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: re-DFA
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  Carp: 0
+  Clone: 0
+  GraphViz: 0
+  Inline::C: 0
+  Language::AttributeGrammar: 0
+  List::MoreUtils: 0
+  List::Util: 0
+  Parse::RecDescent: 0
+  Set::Scalar: 0
+  Template: 0
+  Text::Table: 0
+  perl: 5.6.1
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.01

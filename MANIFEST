@@ -4,7 +4,7 @@ t/re-DFA-Perl/code.t
 t/re-DFA-Perl/eval.t
 t/re-DFA-C/code.t
 t/re-DFA-C/eval.t
-t/re-Graph/~g28.png
+t/re-Graph/_g28.dot
 t/re-Graph/basic.t
 t/re-Graph/table.t
 t/re-NFA/basic.t
@@ -36,9 +36,10 @@ lib/re/Parser.pm
 template/leftop.pm.tt
 grammar/re.grammar
 TODO
-Makefile.meta
+meta.mk
 Makefile.PL
 MANIFEST
+MANIFEST.SKIP
 inc/Module/Install.pm
 inc/Module/Install/Metadata.pm
 inc/Module/Install/Base.pm

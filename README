@@ -1,0 +1,7 @@
+Installation
+
+    make -f meta.mk
+    perl Makefile.PL
+    make
+    make install
+
